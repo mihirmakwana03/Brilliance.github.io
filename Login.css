@@ -1,0 +1,124 @@
+#logo {
+  margin: 10px 35px;
+}
+
+#logo img {
+  height: 100px;
+  margin: 3px 10px;
+  margin-left: -30px;
+}
+
+.a {
+  background-color: black;
+  display: flex;
+  margin: 0;
+  color: white;
+  display: block;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0px 7px;
+  padding-bottom: 8px;
+}
+
+.a a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 40px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a a:hover {
+  color: black;
+  background-color: white;
+}
+
+table{
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  border-collapse: collapse;
+}
+
+th{
+  font-size: 35pt;
+  padding: 10px 10px;
+}
+
+tr{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+td {
+  border-right: solid 3px black; 
+  border-left: solid 3px black;
+}
+
+#td1{
+  border-left: none;
+}
+
+#td2{
+  border-right: none;
+}
+
+input{
+  width: 70%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.sign{
+  width: 70%;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  background-color: #0f9d58;
+  text-shadow: none;
+  font-size: 15pt;
+}
+
+#google{
+  width: 33%;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #dd4e41;
+  text-shadow: none;
+  font-size: 15pt;
+}
+
+#fb{
+  width: 33%;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: #3b5998;
+  text-shadow: none;
+  font-size: 15pt;
+}
+
+
+
+#b {
+  text-align: center;
+  background-color: #808080;
+  font-size: 15pt;
+  padding: 5px 5px;
+  object-position: bottom;
+
+}

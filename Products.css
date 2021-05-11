@@ -1,0 +1,94 @@
+#logo { 
+    margin: 10px 35px; 
+}
+
+#logo img { 
+    height: 100px; 
+    margin: 3px 10px;
+    margin-left: -30px; 
+}
+
+.a{
+    background-color: black;
+    display: flex;
+    margin: 0;
+    color: white;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+
+.a a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 40px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a a:hover{
+    color: black;
+    background-color: white;
+}
+
+table{
+    font-size: 20pt;
+}
+
+.b{
+    color: red;
+}
+
+button{
+    color: turquoise;
+    background-color:black;
+    border-radius: 8px;
+    padding: 5px 5px;
+    font-size: 13pt;
+}
+
+button a{
+    text-decoration: none;
+    color: turquoise;
+
+}
+
+th{
+    background-color: turquoise;
+    color: black;
+}
+
+#th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Comic Sans MS;
+}
+
+td img{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+td{
+    border-bottom: 3px solid black;
+    border-collapse: collapse;
+}
+
+a img{
+    width: 172px;
+    height: 150px;
+}
+
+
+#b{
+    text-align: center;
+    background-color: #808080;
+    font-size: 15pt;
+    padding: 5px 5px;
+}
