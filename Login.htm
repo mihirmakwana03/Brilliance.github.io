@@ -5,19 +5,14 @@
   <title>Login</title>
 
   <link rel="stylesheet" href="Login.css">
+  <link rel="stylesheet" href="common.css">
+
 
   <script language="javascript" type="text/javascript">
 
     function check1() {
       username();
       password1();
-    }
-
-    function check2() {
-      name();
-      email();
-      phone();
-      password2();
     }
 
     function username() {
@@ -43,11 +38,21 @@
       }
     }
 
+
+    function check2() {
+      name();
+      email();
+      phone();
+      password2();
+    }
+
+
     function name() {
       var a, b;
-      a = window.document.frm.name.value;
+      a = window.document.frm2.fname.value;
       b = a.toUppercase();
-      if (a >= "A" && a <= "Z")
+      c = b.charAt(0);
+      if (c >= "A" && c <= "Z")
         alert("Correct Name");
       else
         alert("Incorrect Name");
@@ -63,26 +68,26 @@
 
 <body>
 
-  <nav class="a">
+  <div class="a">
     <div id="logo"><img src="logo.jpg" alt="logo"></div>
-    <a href="index.htm" target="_blank">Home</a>
+    <a href="Home.htm" target="_blank">Home</a>
     <a href="Products.htm" target="_blank">Products</a>
     <a href="About.htm" target="_blank">About</a>
     <a href="Contact.htm" target="_blank">Contact Us</a>
     <a href="Login.htm" target="_blank">Login</a>
-  </nav>
+  </div>
 
 
-  <section>
+  <div>
 
-    <table width="70%">
+    <table width="70%" align="center">
       <tr>
         <th>Sign In</th>
         <th>Sign Up</th>
       </tr>
       <tr>
         <td valign="top" id="td1">
-          <form action="" name="frm1" method="">
+          <form action="" name="frm1" method="POST">
 
             <input type="text" name="txt1" id="txt1" placeholder="Username" required><br><br>
             <input type="password" name="pwd1" id="pwd1" placeholder="Password" required><br><br>
@@ -93,10 +98,10 @@
           </form>
         </td>
         <td id="td2" valign="top">
-          <form action="" name="frm2" method="">
+          <form action="" name="frm2" method="POST">
 
-            <input type="text" name="name" id="fname" placeholder="First Name" required><br><br>
-            <input type="text" name="name" id="lname" placeholder="Last Name" required><br><br>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required><br><br>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required><br><br>
             <input type="email" name="email" id="email" placeholder="E-mail" required><br><br>
             <input type="text" name="phone" id="phone" placeholder="Phone Number" required><br><br>
             <input type="password" name="pwd2" id="pwd2" placeholder="Password" required><br><br>
@@ -111,13 +116,13 @@
     </form>
 
 
-  </section>
+  </div>
 
-  <footer>
+  <div>
     <div id="b">
       Copyright &copy; www.Brilliance.com. All rights reserved!
     </div>
-  </footer>
+  </div>
 
 
 
